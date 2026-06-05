@@ -18,7 +18,7 @@ jobs:
           - qBraid-SDK
           - qBraid-QIR
           - qBraid-Algorithms
-          - qBraid-CUDAQ  # notebooks SKIP_CI (require CUDA-Q runtime); .cpp skipped (requires nvq++)
+          # qBraid-CUDAQ : requires CUDA-Q runtime + API creds; .cpp requires nvq++
           # qBraid-Runtime : requires creds
           # Provider-Jobs : requires creds
     env:
